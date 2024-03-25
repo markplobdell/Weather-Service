@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Author: Mark Lobdell
+      Date: 5/11/2022
+
+      Filename: Today's Weather.js
+
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Todays Weather Outlook</title>
+   <link rel = "stylesheet" href="styles.css">
+   <script src ="Today's Weather.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Today's Weather Outlook
+      </h1>
+   </header>
+
+   <section>
+
+      <ul>
+         <li><a href="Today's Weather.html">Today's Weather</a></li>
+         <li class = "centerNav"><a href="UV Index.html">UV Index</a></li>
+         <li > <a href = "7 Day Forecast.html">7 Day Forecast</a></li>
+      </ul> 
+
+      <table id="weatherTable">
+         <caption>Todays's Weather Forecast</caption>
+
+         <thead>
+            <tr>
+               <th id = "day"> Today is: </th>
+            </tr>
+         </thead>
+         <tbody>
+
+            <tr>
+               <td id = "temp"> The current temperature is: </td>
+            </tr>
+
+            <tr>
+               <td id = "feelslike"> It feels like: </td>
+            </tr>
+
+            <tr>
+               <td id = "maxTemp">Daily high:</td>
+            </tr>
+
+            <tr>
+               <td id = "minTemp">Daily low: </td>
+            </tr>
+
+            <tr>
+               <td id = "humidity">Humidity: </td>
+            </tr>
+
+            <tr>
+               <td id = "winds">Winds are: </td>
+            </tr>
+           
+         </tbody>
+
+      </table>
+
+
+      <div class = "weatherDiv"> 
+         
+         <img id = "weatherImage" src="">
+         <p id = "weatherDesc"> The conditions outside are:  </p>
+
+      </div>
+
+   </section>
+
+   <footer> 
+      
+   <p> Author: Mark Lobdell markplobdell@gmail.com </p>
+   <p> Date Created: 5/3/2022</p>
+   <p> Last Modified: 5/11/2022 </p>
+   
+   </footer>
+
+</body>
+</html>
